@@ -27,7 +27,7 @@ export function Metrics({ birthday }: { birthday: Date }) {
       minutes: minutes.toFixed(3),
       seconds: seconds.toFixed(0),
     });
-  }, []);
+  }, [birthday]);
 
   useEffect(() => {
     calculateUnits();
